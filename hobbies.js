@@ -1,6 +1,6 @@
-function createHobbies (hobbies){
+function createHobbies (...hobbies){
     return{
-        hobbies: [hobbies]
+        hobbies: hobbies
     };
 }
 module.exports = createHobbies;
